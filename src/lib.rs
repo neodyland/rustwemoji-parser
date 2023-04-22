@@ -26,7 +26,7 @@ impl Token {
     }
     #[cfg(feature = "discord")]
     pub fn new_custom_emoji(s: String) -> Self {
-        let s = format!("https://cdn.discordapp.com/emojis/{}.png?size=72", s);
+        let s = format!("https://cdn.discordapp.com/emojis/{}.png?size=96", s);
         Self::CustomEmoji(s)
     }
 }

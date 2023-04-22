@@ -455,7 +455,7 @@ checksum = "58f3916e97d3dbbf730de27599b9592c0158335123a3964a30b4d0315b3f97b6"
 
 [[package]]
 name = "rustwemoji-parser"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "async-std",
  "regex",
